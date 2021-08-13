@@ -1,7 +1,6 @@
-/** @jsx jsx */
-import { jsx } from 'theme-ui';
-import Gun from 'gun/gun';
-import { useEffect, useState } from 'react';
+/** @jsxImportSource theme-ui **/
+import Gun from 'gun/gun'
+import { useEffect, useState } from 'react'
 const gun = Gun([
   'http://localhost:8765/gun',
   'https://mvp-gun.herokuapp.com/gun',
@@ -17,7 +16,7 @@ function uuidv4() {
   });
 }
 
-export default function Content() {
+export default function Index() {
   const [submitted, setSubmitted] = useState(false);
 
   function handleSubmit(e) {

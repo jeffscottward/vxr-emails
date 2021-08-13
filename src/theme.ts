@@ -1,4 +1,3 @@
-// import buttonVariants from './theme/buttons'
 const GlobalTheme = {
   initialColorMode: 'light',
   colors: {
@@ -13,78 +12,78 @@ const GlobalTheme = {
     alternate: '#003F63',
     gray: '#6c6c6c',
     gray0: '#e0e0e0',
-    accent: '#3f3f3f'
+    accent: '#3f3f3f',
   },
   fonts: {
     body: 'Silom, monospace',
     heading: 'Silom, monospace',
-    monospace: 'monospace'
+    monospace: 'monospace',
   },
   fontSizes: [12, 14, 16, 20, 24, 32, 48, 64, 72],
   fontWeights: {
     body: 400,
     heading: 700,
-    display: 900
+    display: 900,
   },
   lineHeights: {
     body: 1.5,
-    heading: 1.25
+    heading: 1.25,
   },
   textStyles: {
     heading: {
       fontFamily: 'heading',
       fontWeight: 'heading',
-      lineHeight: 'heading'
+      lineHeight: 'heading',
     },
     display: {
       variant: 'textStyles.heading',
       fontSize: [5, 6],
       fontWeight: 'display',
       letterSpacing: '-0.03em',
-      mt: 3
-    }
+      mt: 3,
+    },
   },
   styles: {
     Container: {
       p: 3,
-      maxWidth: 1024
+      maxWidth: 1024,
     },
     root: {
       fontFamily: 'body',
       lineHeight: 'body',
-      fontWeight: 'body'
+      fontWeight: 'body',
     },
     h1: {
-      variant: 'textStyles.display'
+      variant: 'textStyles.display',
     },
     h2: {
       variant: 'textStyles.heading',
-      fontSize: 5
+      fontSize: 5,
     },
     h3: {
       variant: 'textStyles.heading',
-      fontSize: 4
+      fontSize: 4,
     },
     h4: {
       variant: 'textStyles.heading',
-      fontSize: 3
+      fontSize: 3,
     },
     h5: {
       variant: 'textStyles.heading',
-      fontSize: 2
+      fontSize: 2,
     },
     h6: {
       variant: 'textStyles.heading',
-      fontSize: 1
+      fontSize: 1,
     },
     p: {
-      fontSize: 2
+      fontSize: 2,
     },
     a: {
       color: 'primary',
       '&:hover': {
-        color: 'secondary'
-      }
+        color: 'secondary',
+      },
     },
     pre: {
       fontFamily: 'monospace',
@@ -100,50 +99,50 @@ const GlobalTheme = {
       borderBottomWidth: 8,
       overflow: 'auto',
       code: {
-        color: 'inherit'
-      }
+        color: 'inherit',
+      },
     },
     code: {
       fontFamily: 'monospace',
-      fontSize: 1
+      fontSize: 1,
     },
     inlineCode: {
       fontFamily: 'monospace',
       color: 'secondary',
       bg: 'muted',
-      px: 2
+      px: 2,
     },
     ul: {
-      listStyleType: 'square'
+      listStyleType: 'square',
     },
     table: {
-      width: '100%',
+      width: "100%",
       my: 4,
       borderSpacing: 0,
       // borderCollapse: 'seperate',
       'td,th': {
-        py: '4px',
-        pr: '4px',
+        py: "4px",
+        pr: "4px",
         pl: 0,
-        borderColor: 'text',
-        borderBottomStyle: 'solid'
+        borderColor: "text",
+        borderBottomStyle: "solid",
         // borderCollapse: 'seperate',
       }
     },
     th: {
-      bg: 'muted',
-      verticalAlign: 'bottom',
-      borderBottomWidth: 8
+      bg: "muted",
+      verticalAlign: "bottom",
+      borderBottomWidth: 8,
     },
     td: {
-      verticalAlign: 'top',
-      borderBottomWidth: 4
+      verticalAlign: "top",
+      borderBottomWidth: 4,
     },
     hr: {
       border: 0,
       borderBottom: '8px solid',
-      borderColor: 'text'
-    }
+      borderColor: 'text',
+    },
   },
   buttons: {
     primary: {
@@ -171,32 +170,32 @@ const GlobalTheme = {
       color: 'background',
       cursor: 'not-allowed',
       fontFamily: 'body',
-      borderRadius: 0
-    }
+      borderRadius: 0,
+    },
   },
   links: {
     primary: {
       cursor: 'pointer',
       color: 'primary',
       '&:hover': {
-        color: 'secondary'
-      }
+        color: 'secondary',
+      },
     },
     underline: {
       cursor: 'pointer',
       color: 'primary',
       borderBottom: '2px solid',
       '&:hover': {
-        color: 'secondary'
-      }
+        color: 'secondary',
+      },
     },
     bold: {
       cursor: 'pointer',
       fontWeight: 'bold',
       '&:hover': {
-        color: 'secondary'
-      }
-    }
+        color: 'secondary',
+      },
+    },
   },
   forms: {
     input: {
@@ -216,10 +215,10 @@ const GlobalTheme = {
     },
     textarea: {
       fontFamily: 'monospace',
-      fontSize: 2
+      fontSize: 2,
     }
   },
-  breakpoints: ['640px', '768px', '1024px', '1280px']
-};
+  breakpoints: ['640px', '768px', '1024px', '1280px'],
+}
 
-export default GlobalTheme;
+export default GlobalTheme
